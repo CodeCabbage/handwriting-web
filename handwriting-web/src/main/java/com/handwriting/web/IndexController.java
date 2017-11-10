@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class IndexController {
 
-	//test if build success
-	@RequestMapping(value = "test")
+	@RequestMapping(value = "/")
 	@ResponseBody
 	public String test(){
 		return "success!";
